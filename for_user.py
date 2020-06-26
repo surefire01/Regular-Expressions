@@ -23,7 +23,7 @@ def errors(s):
         else:
             Errors_dic[a] += 1
     
-with open("/home/atmaj/sysllll.log") as log:
+with open("./new.log") as log:
     for i in log.readlines()[1:]:
         usernames(i)
         errors(i)
